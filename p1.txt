@@ -1,0 +1,31 @@
+Name: 
+    Clean the Messy salary from list        
+Filename:
+    salary2.py
+Problem Statement:
+    salaries = ['$876,001', '$543,903', '$2453,896'] 
+    Clean the Messy salaries into integers for Data Processing
+    Remove the $
+    Remove the ,
+    Convert into integer
+Hint: 
+    We can use slicing concept to remove $ or remove() method 
+    We can use the split and join to remove the , comma
+    We canuse the int() typecast to convert into integer
+"""
+
+
+
+
+
+#solution in  python.....
+
+list1 = ['$876,001', '$543,903', '$2453,896'] 
+for salary in list1:
+    salary =salary.replace('$','')
+    salary =salary.replace(',','')
+    salary_int =int(salary)
+    print(salary)
+
+
+
